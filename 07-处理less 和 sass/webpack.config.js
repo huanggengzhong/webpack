@@ -28,6 +28,14 @@ module.exports = {
         test:/\.css$/, //"\"是转义,后面意思是以什么结尾.
         use:['style-loader','css-loader']
 
+      },
+      {
+        test:/\.less$/,
+        use:['style-loader','css-loader','less-loader']
+      },
+      {
+        test:/\.s(a|c)ss$/,
+        use:['style-loader','css-loader','sass-loader']
       }
     ]
   }

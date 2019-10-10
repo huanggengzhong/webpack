@@ -1,0 +1,6 @@
+li{
+    line-height: 50px;
+}
+li:first-of-type{
+    background-color: yellow;
+}

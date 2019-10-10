@@ -6,6 +6,9 @@
 //导入css
 import './css/b.css'
 import './css/index.css'
+import './less/index.less'
+import './sass/index.scss'
+
 import a from './a.js'
 console.log(a)
 console.log('黑马程序员真牛逼!')
